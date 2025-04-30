@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joshua Johnson's Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background: linear-gradient(to right, #6EE7B7, #3B82F6);
+            font-family: 'Quicksand', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            background: #FFFFFF;
+            max-width: 1000px;
+            margin: 30px auto;
+            border-radius: 20px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+            overflow: hidden;
+            padding: 20px;
+        }
+        nav {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        nav a {
+            color: #3B82F6;
+            text-decoration: none;
+            font-weight: 600;
+            margin: 0 15px;
+            transition: color 0.3s;
+        }
+        nav a:hover {
+            color: #2563EB;
+            text-decoration: underline;
+        }
+        header {
+            text-align: center;
+        }
+        header h1 {
+            margin-bottom: 10px;
+        }
+        hr {
+            border: none;
+            height: 2px;
+            background: #3B82F6;
+            width: 60%;
+            margin: 20px auto;
+        }
+        .content {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 30px;
+        }
+        .card {
+            background: #F0F9FF;
+            border-radius: 15px;
+            padding: 20px;
+            width: 280px;
+            text-align: center;
+            transition: transform 0.3s;
+        }
+        .card:hover {
+            transform: translateY(-10px);
+        }
+        .card img {
+            max-width: 100%;
+            border-radius: 10px;
+        }
+        footer {
+            text-align: center;
+            margin-top: 30px;
+            font-size: 14px;
+            color: #ffffff;
+        }
+        p {
+            text-align: left;
+            color: #374151;
+        }
+        @media (max-width: 700px) {
+            .content {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>Infographic Project</h1>
+            <hr>
+        </header>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="Bookmark.html">Bookmark</a>
+            <a href="Sketching.html">Sketching</a>
+            <a href="Infographic.html">Infographic</a>
+        </nav>
+
+        <div class="content">
+            <div class="card">
+                <img src="InfographicFaxMachine.gif" alt="Graduation">
+                <p>My Infographic </p>
+            </div>
+            <div class="card" style="width:500px">
+           <p><b>The image you see on the left is a visual representation of my infographic project. This project was designed with the purpose of creating an informative and visually appealing infographic focused on a specific piece of technology. My goal was to present the information in a way that not only communicates key details clearly, but also engages the viewer’s attention through the use of compelling graphics, organized layout, and eye-catching visuals. I carefully selected images, icons, and other design elements to enhance the overall look and feel of the infographic, ensuring that it would stand out and be easy to understand at a glance. The use of color, spacing, and typography all played important roles in making the final product effective. Through this project, I aimed to combine design with information to create something that is both educational and visually interesting, encouraging viewers to stop, look, and learn more.</b></p>
+            </div>
+        </div>
+
+        <footer>
+            <p>&copy; 2025 Joshua Johnson</p>
+        </footer>
+
+    </div>
+
+</body>
+</html>

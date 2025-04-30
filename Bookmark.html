@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joshua Johnson's Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background: linear-gradient(to right, #6EE7B7, #3B82F6);
+            font-family: 'Quicksand', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            background: #FFFFFF;
+            max-width: 1000px;
+            margin: 30px auto;
+            border-radius: 20px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+            overflow: hidden;
+            padding: 20px;
+        }
+        nav {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        nav a {
+            color: #3B82F6;
+            text-decoration: none;
+            font-weight: 600;
+            margin: 0 15px;
+            transition: color 0.3s;
+        }
+        nav a:hover {
+            color: #2563EB;
+            text-decoration: underline;
+        }
+        header {
+            text-align: center;
+        }
+        header h1 {
+            margin-bottom: 10px;
+        }
+        hr {
+            border: none;
+            height: 2px;
+            background: #3B82F6;
+            width: 60%;
+            margin: 20px auto;
+        }
+        .content {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 30px;
+        }
+        .card {
+            background: #F0F9FF;
+            border-radius: 15px;
+            padding: 20px;
+            width: 280px;
+            text-align: center;
+            transition: transform 0.3s;
+        }
+        .card:hover {
+            transform: translateY(-10px);
+        }
+        .card img {
+            max-width: 100%;
+            border-radius: 10px;
+        }
+        footer {
+            text-align: center;
+            margin-top: 30px;
+            font-size: 14px;
+            color: #ffffff;
+        }
+        p {
+            text-align: left;
+            color: #374151;
+        }
+        @media (max-width: 700px) {
+            .content {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>Bookmark Project</h1>
+            <hr>
+        </header>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="Bookmark.html">Bookmark</a>
+            <a href="Sketching.html">Sketching</a>
+            <a href="Infographic.html">Infographic</a>
+        </nav>
+
+        <div class="content">
+            <div class="card">
+                <img src="Bookmark.gif" alt="Graduation">
+                <p>My Bookmark </p>
+            </div>
+            <div class="card" style="width:500px">
+                <p><b>The image you see to the left is a representation of my completed bookmark project. This creative assignment had a meaningful purpose: to design and produce bookmarks specifically for the children at Eshleman Elementary School. The goal was to make something both fun and useful that would encourage young students to enjoy reading and feel inspired by the visuals. The process of creating these bookmarks involved several important steps and required a combination of technical and artistic skills. First, I searched the internet for appropriate and engaging images that would appeal to a younger audience. Once I found the right visuals, I used Adobe Photoshop to edit and enhance the images. After that, I imported the edited content into Adobe InDesign, where I arranged everything into a clean and visually appealing layout suitable for printing. Overall, the project helped me improve my design skills while doing something positive for the community.</b></p>
+            </div>
+        </div>
+
+        <footer>
+            <p>&copy; 2025 Joshua Johnson</p>
+        </footer>
+
+    </div>
+
+</body>
+</html>

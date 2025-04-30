@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joshua Johnson's Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background: linear-gradient(to right, #6EE7B7, #3B82F6);
+            font-family: 'Quicksand', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            background: #FFFFFF;
+            max-width: 1000px;
+            margin: 30px auto;
+            border-radius: 20px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+            overflow: hidden;
+            padding: 20px;
+        }
+        nav {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        nav a {
+            color: #3B82F6;
+            text-decoration: none;
+            font-weight: 600;
+            margin: 0 15px;
+            transition: color 0.3s;
+        }
+        nav a:hover {
+            color: #2563EB;
+            text-decoration: underline;
+        }
+        header {
+            text-align: center;
+        }
+        header h1 {
+            margin-bottom: 10px;
+        }
+        hr {
+            border: none;
+            height: 2px;
+            background: #3B82F6;
+            width: 60%;
+            margin: 20px auto;
+        }
+        .content {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 30px;
+        }
+        .card {
+            background: #F0F9FF;
+            border-radius: 15px;
+            padding: 20px;
+            width: 280px;
+            text-align: center;
+            transition: transform 0.3s;
+        }
+        .card:hover {
+            transform: translateY(-10px);
+        }
+        .card img {
+            max-width: 100%;
+            border-radius: 10px;
+        }
+        footer {
+            text-align: center;
+            margin-top: 30px;
+            font-size: 14px;
+            color: #ffffff;
+        }
+        p {
+            text-align: left;
+            color: #374151;
+        }
+        @media (max-width: 700px) {
+            .content {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>Sketching Project</h1>
+            <hr>
+        </header>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="Bookmark.html">Bookmark</a>
+            <a href="Sketching.html">Sketching</a>
+            <a href="Infographic.html">Infographic</a>
+        </nav>
+
+        <div class="content">
+            <div class="card">
+                <img src="Sketching.gif" alt="Graduation">
+                <p>My Sketch </p>
+            </div>
+            <div class="card" style="width:500px">
+                <p><b>The picture you see on the left represents my sketching project, which focused on designing and illustrating an original cereal box from scratch. The main purpose of this assignment was to allow me to create my very own cereal brand and bring it to life through sketching techniques. In completing this project, I applied the method of orthographic drawing to ensure that the cereal box appeared symmetrical and proportionally accurate from all angles. Orthographic drawing helped me visualize and lay out the front, sides, and top of the box clearly, just as a real product designer would. I also worked on creating a unique and creative name for my cereal, along with a one-of-a-kind design that would catch a customer’s attention on the shelf. This assignment gave me the opportunity to combine creativity with technical drawing skills, resulting in a fun, thoughtful, and well-executed product concept that I am proud of.</b></p>
+            </div>
+        </div>
+
+        <footer>
+            <p>&copy; 2025 Joshua Johnson</p>
+        </footer>
+
+    </div>
+
+</body>
+</html>

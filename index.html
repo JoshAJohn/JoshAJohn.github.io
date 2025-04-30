@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joshua Johnson's Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background: linear-gradient(to right, #6EE7B7, #3B82F6);
+            font-family: 'Quicksand', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            background: #FFFFFF;
+            max-width: 1000px;
+            margin: 30px auto;
+            border-radius: 20px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+            overflow: hidden;
+            padding: 20px;
+        }
+        nav {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        nav a {
+            color: #3B82F6;
+            text-decoration: none;
+            font-weight: 600;
+            margin: 0 15px;
+            transition: color 0.3s;
+        }
+        nav a:hover {
+            color: #2563EB;
+            text-decoration: underline;
+        }
+        header {
+            text-align: center;
+        }
+        header h1 {
+            margin-bottom: 10px;
+        }
+        hr {
+            border: none;
+            height: 2px;
+            background: #3B82F6;
+            width: 60%;
+            margin: 20px auto;
+        }
+        .content {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 30px;
+        }
+        .card {
+            background: #F0F9FF;
+            border-radius: 15px;
+            padding: 20px;
+            width: 280px;
+            text-align: center;
+            transition: transform 0.3s;
+        }
+        .card:hover {
+            transform: translateY(-10px);
+        }
+        .card img {
+            max-width: 100%;
+            border-radius: 10px;
+        }
+        footer {
+            text-align: center;
+            margin-top: 30px;
+            font-size: 14px;
+            color: #ffffff;
+        }
+        p {
+            text-align: left;
+            color: #374151;
+        }
+        @media (max-width: 700px) {
+            .content {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>Joshua Johnson's Portfolio for AENG 110 Class</h1>
+            <hr>
+        </header>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="Bookmark.html">Bookmark</a>
+            <a href="Sketching.html">Sketching</a>
+            <a href="Infographic.html">Infographic</a>
+        </nav>
+
+        <div class="content">
+            <div class="card">
+                <img src="Grad2.gif" alt="Graduation">
+                <p>Student at <a href="https://www.millersville.edu" target="_blank">Millersville University</a></p>
+            </div>
+            <div class="card" style="width:500px">
+                <p><b>My name is Joshua Johnson, a transfer student undergoing their junior year at the University of Millersville. My major of study is applied engineering CADD. I chose this major because I found the process of designing materials through computer drafting interesting and enjoyable to do. Some things I am involved in at the school are being a member of the fraternity Tau Kappa Epsilon, and being a student worker at the Anchor. In my free time I like to play video games, and sports like football and basketball, and hanging out with friends. Now for the actual purpose of you being on this website of mine is to view the multiple projects that I have done throughout the semester for my Communication and Information Systems class. Some of the projects you will find on this site will be the Bookmark, Sketching, and Infographic projects. My overall goal is to have whoever is viewing this site to be able to easily and effectively move through my site and see each one of the projects mentioned before and the details about them. In conclusion, this summary was to provide some information about me and to show the viewer the purpose of this website.</b></p>
+            </div>
+        </div>
+
+        <footer>
+            <p>&copy; 2025 Joshua Johnson</p>
+        </footer>
+
+    </div>
+
+</body>
+</html>
